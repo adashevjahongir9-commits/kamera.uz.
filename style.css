@@ -1,0 +1,149 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1950px;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+body {
+    background: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: blue;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.logo:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.div {
+    color: white;
+    width: 380px;
+    font-size: 27px;
+    margin-top: 600px;
+}
+
+.ram {
+    width: 25px;
+    border-radius: 70px;
+}
+
+.span {
+    color: rgb(134, 29, 29);
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.rasm {
+    border-radius: 20px;
+    margin-top: 300px;
+}
+
+.secton {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.dev {
+
+    padding-top: 30px;
+    width: 190px;
+    height: 130px;
+    padding-left: 7px;
+    margin-top: 50px;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    gap: 30px;
+}
+
+.dev:hover {
+
+    border: 3px solid blue;
+}
+
+.h1:hover {
+    color: blue;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 8, 108);
+    margin-top: 30px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+@media (max-width:760px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: blue;
+
+    }
+
+
+
+    .secton{
+        margin-left: 100px;
+        flex-direction: column;
+        
+    }
+    .rasm{
+        width: 300px;
+        margin-right: 80px;
+    }
+    
+    .div{
+        margin-left: 100px;
+    }
+    .logo{
+        margin-right: 900px;
+    }
+
+}
