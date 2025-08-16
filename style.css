@@ -6,11 +6,11 @@ html {
 }
 
 header {
-    width: 1950px;
+    width: 1850px;
 
     position: fixed;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -51,7 +51,8 @@ nav a:hover {
     color: white;
     width: 380px;
     font-size: 27px;
-    margin-top: 600px;
+    margin-top: 380px;
+    
 }
 
 .ram {
@@ -73,6 +74,7 @@ nav {
 .rasm {
     border-radius: 20px;
     margin-top: 300px;
+    width: 600px;
 }
 
 .secton {
@@ -100,14 +102,16 @@ nav {
 }
 
 .dev:hover {
-
+    color: blue;
     border: 3px solid blue;
 }
-
 .h1:hover {
     color: blue;
 }
 
+.h{
+    color: white;
+}
 
 .footer {
     display: flex;
@@ -117,6 +121,8 @@ nav {
     padding-top: 20px;
     align-items: center;
 }
+
+
 
 @media (max-width:760px) {
     .footer {
@@ -136,7 +142,7 @@ nav {
     }
     .rasm{
         width: 300px;
-        margin-right: 80px;
+        
     }
     
     .div{
